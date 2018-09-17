@@ -1,7 +1,7 @@
 # BlowinInTheWindAtAnywhereYouWant
 
-現在のコード、Software Design 記事の図２ともに、下記の修正が必要です。
-    
+Software Design 記事の図２関しては、下記の修正が必要です。現在のJupyterコードは修正済みバージョンです。
+
     def getMapFromOSM(lon,lat, nx, ny):
         angle=0.000001
         map = smopy.Map((lon,lat,lon+angle,lat+angle),z=19)
