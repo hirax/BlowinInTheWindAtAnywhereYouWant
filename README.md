@@ -1,6 +1,8 @@
 # BlowinInTheWindAtAnywhereYouWant
 
-Software Design 記事の図２関しては、下記の修正が必要です。現在のJupyterコードは修正済みバージョンです。
+Software Design 記事の図２に関しては、下記の修正が必要です。
+（一行のスペースを減らそうとしてバグを入れてしまいました）
+現在のJupyterコードは修正済みバージョンです。
 
     def getMapFromOSM(lon,lat, nx, ny):
         angle=0.000001
