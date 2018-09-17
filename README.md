@@ -2,6 +2,7 @@
 
 現在のコード、Software Design 記事の図２ともに、下記の修正が必要です。
 '
+    
 def getMapFromOSM(lon,lat, nx, ny):
     angle=0.000001
     map = smopy.Map((lon,lat,lon+angle,lat+angle),z=19)
